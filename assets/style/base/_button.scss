@@ -1,0 +1,61 @@
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @include rwd($medium-1) {
+    padding: 0px 0 8px;
+  }
+
+  &__link {
+    margin: 0 auto;
+    padding: 4px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $ci-main-blue5 !important;
+    position: relative;
+
+    &--icon {
+      width: 16px;
+      height: 18px;
+      margin-left: 2px;
+    }
+
+    &--text {
+      vertical-align: middle;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        background: linear-gradient(to right, transparent, transparent),
+          linear-gradient(to right, #7fbe26, #7fbe26);
+        background-size: 100% 0.1em, 0 0.1em;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+        width: calc(100% - 20px);
+        height: 1px;
+      }
+
+      &:hover {
+        color: $ci-main-blue6;
+
+        &::before {
+          background-size: 0 0.1em, 100% 0.1em;
+        }
+      }
+
+      &:active {
+        color: $ci-main-blue7;
+
+        &::before {
+          background-size: 0 0.1em, 100% 0.1em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+@mixin full-button($default:$gradual-blue-dark,
+  $hover-color:$gradual-blue-dark,
+  $active-color:$gradual-blue-dark,
+  $disable-color:$ci-main-blue4) {
+
+  overflow: hidden;
+  position: relative;
+  background: $default;
+
+  &__container {
+    position: relative;
+    z-index: 3;
+  }
+
+  &:hover &__hover-layer {
+    opacity: 1;
+  }
+
+  &:active &__hover-layer {
+    opacity: 0;
+  }
+
+  &:active &__active-layer {
+    opacity: 1;
+  }
+
+  &__hover-layer,
+  &__active-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &__hover-layer {
+    z-index: 1;
+    background: $hover-color;
+  }
+
+  &__active-layer {
+    z-index: 2;
+    background: $active-color;
+  }
+
+  &.disable {
+    cursor: not-allowed;
+    background: $disable-color;
+  }
+}
+
+@mixin border-button($default:$grayscale-00,
+  $border-color:$gradual-blue-dark,
+  $border-disable-color:$gradual-blue-dark,
+  $border-radius:36px,
+  $hover-color:$gradual-blue-dark,
+  $active-color:$gradual-blue-dark,
+  $disable-color:$gradual-blue-light) {
+
+  overflow: hidden;
+  position: relative;
+  background: $border-color;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    left: 1px;
+    top: 1px;
+    background: $grayscale-00;
+    border-radius: $border-radius;
+    overflow: hidden;
+    z-index: 1;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 4;
+  }
+
+  &__hover-layer,
+  &__active-layer {
+    position: absolute;
+    display: block;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    left: 1px;
+    top: 1px;
+    border-radius: $border-radius;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &__hover-layer {
+    z-index: 2;
+    background: $hover-color;
+  }
+
+  &__active-layer {
+    z-index: 3;
+    background: $active-color;
+  }
+
+  &:hover,
+  &:active {
+    &::before {
+      opacity: 1;
+
+    }
+  }
+
+  &:hover &__hover-layer {
+    opacity: 1;
+  }
+
+  &:active &__hover-layer {
+    opacity: 0;
+  }
+
+  &:active &__active-layer {
+    opacity: 1;
+  }
+
+  &.disable {
+    background: $border-disable-color;
+    cursor: not-allowed;
+
+    &::before {
+      background: $disable-color;
+      opacity: 1 !important;
+    }
+  }
+}
+
+
+@mixin button-composition() {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include rwd($medium-1) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    flex: 0 0 auto;
+
+    @include rwd($small-1) {
+      width: 100%;
+    }
+
+    &:nth-child(2) {
+      margin-left: 20px;
+
+      @include rwd($medium-1) {
+        margin-left: 0;
+        margin-top: 16px;
+      }
+
+      @include rwd($small-1) {
+        margin-top: 12px;
+      }
+
+    }
+
+    &:nth-child(3) {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      @include rwd($medium-1) {
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+@mixin button-composition-text() {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+
+    @include rwd($small-1) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    flex: 0 0 auto;
+
+    // @include rwd($small-1) {
+    //   width: 100%;
+    // }
+
+    &:nth-child(2) {
+      margin-left: 20px;
+
+      @include rwd($small-1) {
+        margin-left: 0;
+        margin-top: 4px;
+      }
+
+    }
+  }
+}

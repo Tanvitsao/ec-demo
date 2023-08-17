@@ -1,0 +1,86 @@
+//font
+$text-font-stack: 'Noto Sans TC', 'Fredoka One', '微軟正黑體',
+  'Microsoft JhengHei', '文泉驛正黑', 'WenQuanYi Zen Hei', '蘋方-繁',
+  'PingFang TC', '黑體-繁', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', sans-serif;
+
+// ---- breakpoint -----//
+// desktop
+$large-1: 1359px;
+
+// tablet
+$medium-1: 1159px;
+
+// mobile
+$small-1: 759px;
+
+// ---- color -----//
+// Gray Scale (Text & Border)
+$grayscale-100: #000000;
+$grayscale-90: #1a1a1a;
+$grayscale-80: #333333;
+$grayscale-70: #4d4d4d;
+$grayscale-60: #666666;
+$grayscale-50: #7d7d80;
+$grayscale-40: #969699;
+$grayscale-30: #b0b0b3;
+$grayscale-20: #c9c9cc;
+$grayscale-10: #e3e3e6;
+$grayscale-05: #f3f3f3;
+$grayscale-03: #f9f9f9;
+$grayscale-00: #ffffff;
+
+// Main Blue
+$ci-main-blue1: #e4f4ff;
+$ci-main-blue2: #b7daf2;
+$ci-main-blue3: #89bfe5;
+$ci-main-blue4: #5ca5d8;
+$ci-main-blue5: #2e8aca;
+$ci-main-blue6: #006fbc;
+$ci-main-blue7: #015590;
+$ci-main-blue8: #003b64;
+
+// Main Green
+$ci-main-green1: #a7e64e;
+$ci-main-green2: #7fbe26;
+$ci-main-green3: #4d8c00;
+
+// Main Yellow
+$ci-main-yellow1: #fabe00;
+$ci-main-yellow2: #f3af00;
+
+// Main Red
+$ci-main-red1: #ffe4e4;
+$ci-main-red2: #f4acac;
+$ci-main-red3: #ec8585;
+$ci-main-red4: #e46060;
+$ci-main-red5: #dc3939;
+$ci-main-red6: #d00000;
+$ci-main-red7: #a50d0d;
+$ci-main-red8: #7a1818;
+
+// Function
+$function-highlight: #ff9533;
+$function-alert: #dc3939;
+$functions-success: linear-gradient(180deg, #1ca94b 0%, #91ca62 100%);
+
+// Gradual
+$gradual-blue-light: linear-gradient(235.59deg, #059ee1 5.89%, #05336e 93.09%);
+$gradual-blue-dark: linear-gradient(180deg, #3d84b5 0%, #253758 100%);
+
+// ---- effect -----//
+//shadow
+$shadow-big-desktop: 8px 20px 96px 24px rgba(172, 172, 172, 0.24);
+$shadow-big-mobile: 8px 20px 32px 24px rgba(172, 172, 172, 0.12);
+$shadow-small-desktop: 8px 20px 40px 24px rgba(219, 219, 219, 0.15);
+$shadow-small-mobile: 8px 16px 28px 24px rgba(219, 219, 219, 0.15);
+
+// Animation
+$easing-function-default: ease-out;
+$duration-default: 250ms;
+
+// ---- others -----//
+//editor-table
+$editor-table-border-radius: 10px;
+$editor-table-border-color: #d9e1e7;
+$editor-table-header-bg-color: $ci-main-blue7;
+$editor-table-header-text-color: $grayscale-00;

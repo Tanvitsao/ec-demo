@@ -1,0 +1,1860 @@
+{
+    "//": "NS_Town-住址 區域下拉選單",
+    "data": [
+        {
+            "DataValue": "100",
+            "DisplayValue": "中正區",
+            "City": "01"
+        },
+        {
+            "DataValue": "103",
+            "DisplayValue": "大同區",
+            "City": "01"
+        },
+        {
+            "DataValue": "104",
+            "DisplayValue": "中山區",
+            "City": "01"
+        },
+        {
+            "DataValue": "105",
+            "DisplayValue": "松山區",
+            "City": "01"
+        },
+        {
+            "DataValue": "106",
+            "DisplayValue": "大安區",
+            "City": "01"
+        },
+        {
+            "DataValue": "108",
+            "DisplayValue": "萬華區",
+            "City": "01"
+        },
+        {
+            "DataValue": "110",
+            "DisplayValue": "信義區",
+            "City": "01"
+        },
+        {
+            "DataValue": "111",
+            "DisplayValue": "士林區",
+            "City": "01"
+        },
+        {
+            "DataValue": "112",
+            "DisplayValue": "北投區",
+            "City": "01"
+        },
+        {
+            "DataValue": "114",
+            "DisplayValue": "內湖區",
+            "City": "01"
+        },
+        {
+            "DataValue": "115",
+            "DisplayValue": "南港區",
+            "City": "01"
+        },
+        {
+            "DataValue": "116",
+            "DisplayValue": "文山區",
+            "City": "01"
+        },
+        {
+            "DataValue": "200",
+            "DisplayValue": "仁愛區",
+            "City": "02"
+        },
+        {
+            "DataValue": "201",
+            "DisplayValue": "信義區",
+            "City": "02"
+        },
+        {
+            "DataValue": "202",
+            "DisplayValue": "中正區",
+            "City": "02"
+        },
+        {
+            "DataValue": "203",
+            "DisplayValue": "中山區",
+            "City": "02"
+        },
+        {
+            "DataValue": "204",
+            "DisplayValue": "安樂區",
+            "City": "02"
+        },
+        {
+            "DataValue": "205",
+            "DisplayValue": "暖暖區",
+            "City": "02"
+        },
+        {
+            "DataValue": "206",
+            "DisplayValue": "七堵區",
+            "City": "02"
+        },
+        {
+            "DataValue": "207",
+            "DisplayValue": "萬里區",
+            "City": "03"
+        },
+        {
+            "DataValue": "208",
+            "DisplayValue": "金山區",
+            "City": "03"
+        },
+        {
+            "DataValue": "220",
+            "DisplayValue": "板橋區",
+            "City": "03"
+        },
+        {
+            "DataValue": "221",
+            "DisplayValue": "汐止區",
+            "City": "03"
+        },
+        {
+            "DataValue": "222",
+            "DisplayValue": "深坑區",
+            "City": "03"
+        },
+        {
+            "DataValue": "223",
+            "DisplayValue": "石碇區",
+            "City": "03"
+        },
+        {
+            "DataValue": "224",
+            "DisplayValue": "瑞芳區",
+            "City": "03"
+        },
+        {
+            "DataValue": "226",
+            "DisplayValue": "平溪區",
+            "City": "03"
+        },
+        {
+            "DataValue": "227",
+            "DisplayValue": "雙溪區",
+            "City": "03"
+        },
+        {
+            "DataValue": "228",
+            "DisplayValue": "貢寮區",
+            "City": "03"
+        },
+        {
+            "DataValue": "231",
+            "DisplayValue": "新店區",
+            "City": "03"
+        },
+        {
+            "DataValue": "232",
+            "DisplayValue": "坪林區",
+            "City": "03"
+        },
+        {
+            "DataValue": "233",
+            "DisplayValue": "烏來區",
+            "City": "03"
+        },
+        {
+            "DataValue": "234",
+            "DisplayValue": "永和區",
+            "City": "03"
+        },
+        {
+            "DataValue": "235",
+            "DisplayValue": "中和區",
+            "City": "03"
+        },
+        {
+            "DataValue": "236",
+            "DisplayValue": "土城區",
+            "City": "03"
+        },
+        {
+            "DataValue": "237",
+            "DisplayValue": "三峽區",
+            "City": "03"
+        },
+        {
+            "DataValue": "238",
+            "DisplayValue": "樹林區",
+            "City": "03"
+        },
+        {
+            "DataValue": "239",
+            "DisplayValue": "鶯歌區",
+            "City": "03"
+        },
+        {
+            "DataValue": "241",
+            "DisplayValue": "三重區",
+            "City": "03"
+        },
+        {
+            "DataValue": "242",
+            "DisplayValue": "新莊區",
+            "City": "03"
+        },
+        {
+            "DataValue": "243",
+            "DisplayValue": "泰山區",
+            "City": "03"
+        },
+        {
+            "DataValue": "244",
+            "DisplayValue": "林口區",
+            "City": "03"
+        },
+        {
+            "DataValue": "247",
+            "DisplayValue": "蘆洲區",
+            "City": "03"
+        },
+        {
+            "DataValue": "248",
+            "DisplayValue": "五股區",
+            "City": "03"
+        },
+        {
+            "DataValue": "249",
+            "DisplayValue": "八里區",
+            "City": "03"
+        },
+        {
+            "DataValue": "251",
+            "DisplayValue": "淡水區",
+            "City": "03"
+        },
+        {
+            "DataValue": "252",
+            "DisplayValue": "三芝區",
+            "City": "03"
+        },
+        {
+            "DataValue": "253",
+            "DisplayValue": "石門區",
+            "City": "03"
+        },
+        {
+            "DataValue": "209",
+            "DisplayValue": "南竿鄉",
+            "City": "04"
+        },
+        {
+            "DataValue": "210",
+            "DisplayValue": "北竿鄉",
+            "City": "04"
+        },
+        {
+            "DataValue": "211",
+            "DisplayValue": "莒光鄉",
+            "City": "04"
+        },
+        {
+            "DataValue": "212",
+            "DisplayValue": "東引鄉",
+            "City": "04"
+        },
+        {
+            "DataValue": "260",
+            "DisplayValue": "宜蘭市",
+            "City": "05"
+        },
+        {
+            "DataValue": "261",
+            "DisplayValue": "頭城鎮",
+            "City": "05"
+        },
+        {
+            "DataValue": "262",
+            "DisplayValue": "礁溪鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "263",
+            "DisplayValue": "壯圍鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "264",
+            "DisplayValue": "員山鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "265",
+            "DisplayValue": "羅東鎮",
+            "City": "05"
+        },
+        {
+            "DataValue": "266",
+            "DisplayValue": "三星鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "267",
+            "DisplayValue": "大同鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "268",
+            "DisplayValue": "五結鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "269",
+            "DisplayValue": "冬山鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "270",
+            "DisplayValue": "蘇澳鎮",
+            "City": "05"
+        },
+        {
+            "DataValue": "272",
+            "DisplayValue": "南澳鄉",
+            "City": "05"
+        },
+        {
+            "DataValue": "290",
+            "DisplayValue": "釣魚台",
+            "City": "05"
+        },
+        {
+            "DataValue": "3001",
+            "DisplayValue": "東區",
+            "City": "06"
+        },
+        {
+            "DataValue": "3002",
+            "DisplayValue": "香山區",
+            "City": "06"
+        },
+        {
+            "DataValue": "3003",
+            "DisplayValue": "北區",
+            "City": "06"
+        },
+        {
+            "DataValue": "302",
+            "DisplayValue": "竹北市",
+            "City": "07"
+        },
+        {
+            "DataValue": "303",
+            "DisplayValue": "湖口鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "304",
+            "DisplayValue": "新豐鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "305",
+            "DisplayValue": "新埔鎮",
+            "City": "07"
+        },
+        {
+            "DataValue": "306",
+            "DisplayValue": "關西鎮",
+            "City": "07"
+        },
+        {
+            "DataValue": "307",
+            "DisplayValue": "芎林鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "308",
+            "DisplayValue": "寶山鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "310",
+            "DisplayValue": "竹東鎮",
+            "City": "07"
+        },
+        {
+            "DataValue": "311",
+            "DisplayValue": "五峰鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "312",
+            "DisplayValue": "橫山鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "313",
+            "DisplayValue": "尖石鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "314",
+            "DisplayValue": "北埔鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "315",
+            "DisplayValue": "峨眉鄉",
+            "City": "07"
+        },
+        {
+            "DataValue": "320",
+            "DisplayValue": "中壢區",
+            "City": "08"
+        },
+        {
+            "DataValue": "324",
+            "DisplayValue": "平鎮區",
+            "City": "08"
+        },
+        {
+            "DataValue": "325",
+            "DisplayValue": "龍潭區",
+            "City": "08"
+        },
+        {
+            "DataValue": "326",
+            "DisplayValue": "楊梅區",
+            "City": "08"
+        },
+        {
+            "DataValue": "327",
+            "DisplayValue": "新屋區",
+            "City": "08"
+        },
+        {
+            "DataValue": "328",
+            "DisplayValue": "觀音區",
+            "City": "08"
+        },
+        {
+            "DataValue": "330",
+            "DisplayValue": "桃園區",
+            "City": "08"
+        },
+        {
+            "DataValue": "333",
+            "DisplayValue": "龜山區",
+            "City": "08"
+        },
+        {
+            "DataValue": "334",
+            "DisplayValue": "八德區",
+            "City": "08"
+        },
+        {
+            "DataValue": "335",
+            "DisplayValue": "大溪區",
+            "City": "08"
+        },
+        {
+            "DataValue": "336",
+            "DisplayValue": "復興區",
+            "City": "08"
+        },
+        {
+            "DataValue": "337",
+            "DisplayValue": "大園區",
+            "City": "08"
+        },
+        {
+            "DataValue": "338",
+            "DisplayValue": "蘆竹區",
+            "City": "08"
+        },
+        {
+            "DataValue": "350",
+            "DisplayValue": "竹南鎮",
+            "City": "09"
+        },
+        {
+            "DataValue": "351",
+            "DisplayValue": "頭份市",
+            "City": "09"
+        },
+        {
+            "DataValue": "352",
+            "DisplayValue": "三灣鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "353",
+            "DisplayValue": "南庄鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "354",
+            "DisplayValue": "獅潭鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "356",
+            "DisplayValue": "後龍鎮",
+            "City": "09"
+        },
+        {
+            "DataValue": "357",
+            "DisplayValue": "通霄鎮",
+            "City": "09"
+        },
+        {
+            "DataValue": "358",
+            "DisplayValue": "苑裡鎮",
+            "City": "09"
+        },
+        {
+            "DataValue": "360",
+            "DisplayValue": "苗栗市",
+            "City": "09"
+        },
+        {
+            "DataValue": "361",
+            "DisplayValue": "造橋鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "362",
+            "DisplayValue": "頭屋鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "363",
+            "DisplayValue": "公館鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "364",
+            "DisplayValue": "大湖鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "365",
+            "DisplayValue": "泰安鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "366",
+            "DisplayValue": "銅鑼鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "367",
+            "DisplayValue": "三義鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "368",
+            "DisplayValue": "西湖鄉",
+            "City": "09"
+        },
+        {
+            "DataValue": "369",
+            "DisplayValue": "卓蘭鎮",
+            "City": "09"
+        },
+        {
+            "DataValue": "400",
+            "DisplayValue": "中區",
+            "City": "10"
+        },
+        {
+            "DataValue": "401",
+            "DisplayValue": "東區",
+            "City": "10"
+        },
+        {
+            "DataValue": "402",
+            "DisplayValue": "南區",
+            "City": "10"
+        },
+        {
+            "DataValue": "403",
+            "DisplayValue": "西區",
+            "City": "10"
+        },
+        {
+            "DataValue": "404",
+            "DisplayValue": "北區",
+            "City": "10"
+        },
+        {
+            "DataValue": "406",
+            "DisplayValue": "北屯區",
+            "City": "10"
+        },
+        {
+            "DataValue": "407",
+            "DisplayValue": "西屯區",
+            "City": "10"
+        },
+        {
+            "DataValue": "408",
+            "DisplayValue": "南屯區",
+            "City": "10"
+        },
+        {
+            "DataValue": "411",
+            "DisplayValue": "太平區",
+            "City": "10"
+        },
+        {
+            "DataValue": "412",
+            "DisplayValue": "大里區",
+            "City": "10"
+        },
+        {
+            "DataValue": "413",
+            "DisplayValue": "霧峰區",
+            "City": "10"
+        },
+        {
+            "DataValue": "414",
+            "DisplayValue": "烏日區",
+            "City": "10"
+        },
+        {
+            "DataValue": "420",
+            "DisplayValue": "豐原區",
+            "City": "10"
+        },
+        {
+            "DataValue": "421",
+            "DisplayValue": "后里區",
+            "City": "10"
+        },
+        {
+            "DataValue": "422",
+            "DisplayValue": "石岡區",
+            "City": "10"
+        },
+        {
+            "DataValue": "423",
+            "DisplayValue": "東勢區",
+            "City": "10"
+        },
+        {
+            "DataValue": "424",
+            "DisplayValue": "和平區",
+            "City": "10"
+        },
+        {
+            "DataValue": "426",
+            "DisplayValue": "新社區",
+            "City": "10"
+        },
+        {
+            "DataValue": "427",
+            "DisplayValue": "潭子區",
+            "City": "10"
+        },
+        {
+            "DataValue": "428",
+            "DisplayValue": "大雅區",
+            "City": "10"
+        },
+        {
+            "DataValue": "429",
+            "DisplayValue": "神岡區",
+            "City": "10"
+        },
+        {
+            "DataValue": "432",
+            "DisplayValue": "大肚區",
+            "City": "10"
+        },
+        {
+            "DataValue": "433",
+            "DisplayValue": "沙鹿區",
+            "City": "10"
+        },
+        {
+            "DataValue": "434",
+            "DisplayValue": "龍井區",
+            "City": "10"
+        },
+        {
+            "DataValue": "435",
+            "DisplayValue": "梧棲區",
+            "City": "10"
+        },
+        {
+            "DataValue": "436",
+            "DisplayValue": "清水區",
+            "City": "10"
+        },
+        {
+            "DataValue": "437",
+            "DisplayValue": "大甲區",
+            "City": "10"
+        },
+        {
+            "DataValue": "438",
+            "DisplayValue": "外埔區",
+            "City": "10"
+        },
+        {
+            "DataValue": "439",
+            "DisplayValue": "大安區",
+            "City": "10"
+        },
+        {
+            "DataValue": "500",
+            "DisplayValue": "彰化市",
+            "City": "11"
+        },
+        {
+            "DataValue": "502",
+            "DisplayValue": "芬園鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "503",
+            "DisplayValue": "花壇鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "504",
+            "DisplayValue": "秀水鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "505",
+            "DisplayValue": "鹿港鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "506",
+            "DisplayValue": "福興鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "507",
+            "DisplayValue": "線西鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "508",
+            "DisplayValue": "和美鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "509",
+            "DisplayValue": "伸港鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "510",
+            "DisplayValue": "員林市",
+            "City": "11"
+        },
+        {
+            "DataValue": "511",
+            "DisplayValue": "社頭鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "512",
+            "DisplayValue": "永靖鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "513",
+            "DisplayValue": "埔心鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "514",
+            "DisplayValue": "溪湖鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "515",
+            "DisplayValue": "大村鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "516",
+            "DisplayValue": "埔鹽鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "520",
+            "DisplayValue": "田中鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "521",
+            "DisplayValue": "北斗鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "522",
+            "DisplayValue": "田尾鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "523",
+            "DisplayValue": "埤頭鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "524",
+            "DisplayValue": "溪州鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "525",
+            "DisplayValue": "竹塘鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "526",
+            "DisplayValue": "二林鎮",
+            "City": "11"
+        },
+        {
+            "DataValue": "527",
+            "DisplayValue": "大城鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "528",
+            "DisplayValue": "芳苑鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "530",
+            "DisplayValue": "二水鄉",
+            "City": "11"
+        },
+        {
+            "DataValue": "540",
+            "DisplayValue": "南投市",
+            "City": "12"
+        },
+        {
+            "DataValue": "541",
+            "DisplayValue": "中寮鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "542",
+            "DisplayValue": "草屯鎮",
+            "City": "12"
+        },
+        {
+            "DataValue": "544",
+            "DisplayValue": "國姓鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "545",
+            "DisplayValue": "埔里鎮",
+            "City": "12"
+        },
+        {
+            "DataValue": "546",
+            "DisplayValue": "仁愛鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "551",
+            "DisplayValue": "名間鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "552",
+            "DisplayValue": "集集鎮",
+            "City": "12"
+        },
+        {
+            "DataValue": "553",
+            "DisplayValue": "水里鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "555",
+            "DisplayValue": "魚池鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "556",
+            "DisplayValue": "信義鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "557",
+            "DisplayValue": "竹山鎮",
+            "City": "12"
+        },
+        {
+            "DataValue": "558",
+            "DisplayValue": "鹿谷鄉",
+            "City": "12"
+        },
+        {
+            "DataValue": "6001",
+            "DisplayValue": "西區",
+            "City": "13"
+        },
+        {
+            "DataValue": "6002",
+            "DisplayValue": "東區",
+            "City": "13"
+        },
+        {
+            "DataValue": "602",
+            "DisplayValue": "番路鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "603",
+            "DisplayValue": "梅山鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "604",
+            "DisplayValue": "竹崎鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "605",
+            "DisplayValue": "阿里山鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "606",
+            "DisplayValue": "中埔鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "607",
+            "DisplayValue": "大埔鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "608",
+            "DisplayValue": "水上鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "611",
+            "DisplayValue": "鹿草鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "612",
+            "DisplayValue": "太保市",
+            "City": "14"
+        },
+        {
+            "DataValue": "613",
+            "DisplayValue": "朴子市",
+            "City": "14"
+        },
+        {
+            "DataValue": "614",
+            "DisplayValue": "東石鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "615",
+            "DisplayValue": "六腳鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "616",
+            "DisplayValue": "新港鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "621",
+            "DisplayValue": "民雄鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "622",
+            "DisplayValue": "大林鎮",
+            "City": "14"
+        },
+        {
+            "DataValue": "623",
+            "DisplayValue": "溪口鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "624",
+            "DisplayValue": "義竹鄉",
+            "City": "14"
+        },
+        {
+            "DataValue": "625",
+            "DisplayValue": "布袋鎮",
+            "City": "14"
+        },
+        {
+            "DataValue": "630",
+            "DisplayValue": "斗南鎮",
+            "City": "15"
+        },
+        {
+            "DataValue": "631",
+            "DisplayValue": "大埤鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "632",
+            "DisplayValue": "虎尾鎮",
+            "City": "15"
+        },
+        {
+            "DataValue": "633",
+            "DisplayValue": "土庫鎮",
+            "City": "15"
+        },
+        {
+            "DataValue": "634",
+            "DisplayValue": "褒忠鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "635",
+            "DisplayValue": "東勢鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "636",
+            "DisplayValue": "臺西鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "637",
+            "DisplayValue": "崙背鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "638",
+            "DisplayValue": "麥寮鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "640",
+            "DisplayValue": "斗六市",
+            "City": "15"
+        },
+        {
+            "DataValue": "643",
+            "DisplayValue": "林內鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "646",
+            "DisplayValue": "古坑鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "647",
+            "DisplayValue": "莿桐鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "648",
+            "DisplayValue": "西螺鎮",
+            "City": "15"
+        },
+        {
+            "DataValue": "649",
+            "DisplayValue": "二崙鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "651",
+            "DisplayValue": "北港鎮",
+            "City": "15"
+        },
+        {
+            "DataValue": "652",
+            "DisplayValue": "水林鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "653",
+            "DisplayValue": "口湖鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "654",
+            "DisplayValue": "四湖鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "655",
+            "DisplayValue": "元長鄉",
+            "City": "15"
+        },
+        {
+            "DataValue": "700",
+            "DisplayValue": "中西區",
+            "City": "16"
+        },
+        {
+            "DataValue": "701",
+            "DisplayValue": "東區",
+            "City": "16"
+        },
+        {
+            "DataValue": "702",
+            "DisplayValue": "南區",
+            "City": "16"
+        },
+        {
+            "DataValue": "704",
+            "DisplayValue": "北區",
+            "City": "16"
+        },
+        {
+            "DataValue": "708",
+            "DisplayValue": "安平區",
+            "City": "16"
+        },
+        {
+            "DataValue": "709",
+            "DisplayValue": "安南區",
+            "City": "16"
+        },
+        {
+            "DataValue": "710",
+            "DisplayValue": "永康區",
+            "City": "16"
+        },
+        {
+            "DataValue": "711",
+            "DisplayValue": "歸仁區",
+            "City": "16"
+        },
+        {
+            "DataValue": "712",
+            "DisplayValue": "新化區",
+            "City": "16"
+        },
+        {
+            "DataValue": "713",
+            "DisplayValue": "左鎮區",
+            "City": "16"
+        },
+        {
+            "DataValue": "714",
+            "DisplayValue": "玉井區",
+            "City": "16"
+        },
+        {
+            "DataValue": "715",
+            "DisplayValue": "楠西區",
+            "City": "16"
+        },
+        {
+            "DataValue": "716",
+            "DisplayValue": "南化區",
+            "City": "16"
+        },
+        {
+            "DataValue": "717",
+            "DisplayValue": "仁德區",
+            "City": "16"
+        },
+        {
+            "DataValue": "718",
+            "DisplayValue": "關廟區",
+            "City": "16"
+        },
+        {
+            "DataValue": "719",
+            "DisplayValue": "龍崎區",
+            "City": "16"
+        },
+        {
+            "DataValue": "720",
+            "DisplayValue": "官田區",
+            "City": "16"
+        },
+        {
+            "DataValue": "721",
+            "DisplayValue": "麻豆區",
+            "City": "16"
+        },
+        {
+            "DataValue": "722",
+            "DisplayValue": "佳里區",
+            "City": "16"
+        },
+        {
+            "DataValue": "723",
+            "DisplayValue": "西港區",
+            "City": "16"
+        },
+        {
+            "DataValue": "724",
+            "DisplayValue": "七股區",
+            "City": "16"
+        },
+        {
+            "DataValue": "725",
+            "DisplayValue": "將軍區",
+            "City": "16"
+        },
+        {
+            "DataValue": "726",
+            "DisplayValue": "學甲區",
+            "City": "16"
+        },
+        {
+            "DataValue": "727",
+            "DisplayValue": "北門區",
+            "City": "16"
+        },
+        {
+            "DataValue": "730",
+            "DisplayValue": "新營區",
+            "City": "16"
+        },
+        {
+            "DataValue": "731",
+            "DisplayValue": "後壁區",
+            "City": "16"
+        },
+        {
+            "DataValue": "732",
+            "DisplayValue": "白河區",
+            "City": "16"
+        },
+        {
+            "DataValue": "733",
+            "DisplayValue": "東山區",
+            "City": "16"
+        },
+        {
+            "DataValue": "734",
+            "DisplayValue": "六甲區",
+            "City": "16"
+        },
+        {
+            "DataValue": "735",
+            "DisplayValue": "下營區",
+            "City": "16"
+        },
+        {
+            "DataValue": "736",
+            "DisplayValue": "柳營區",
+            "City": "16"
+        },
+        {
+            "DataValue": "737",
+            "DisplayValue": "鹽水區",
+            "City": "16"
+        },
+        {
+            "DataValue": "741",
+            "DisplayValue": "善化區",
+            "City": "16"
+        },
+        {
+            "DataValue": "742",
+            "DisplayValue": "大內區",
+            "City": "16"
+        },
+        {
+            "DataValue": "743",
+            "DisplayValue": "山上區",
+            "City": "16"
+        },
+        {
+            "DataValue": "744",
+            "DisplayValue": "新市區",
+            "City": "16"
+        },
+        {
+            "DataValue": "745",
+            "DisplayValue": "安定區",
+            "City": "16"
+        },
+        {
+            "DataValue": "800",
+            "DisplayValue": "新興區",
+            "City": "17"
+        },
+        {
+            "DataValue": "801",
+            "DisplayValue": "前金區",
+            "City": "17"
+        },
+        {
+            "DataValue": "802",
+            "DisplayValue": "苓雅區",
+            "City": "17"
+        },
+        {
+            "DataValue": "803",
+            "DisplayValue": "鹽埕區",
+            "City": "17"
+        },
+        {
+            "DataValue": "804",
+            "DisplayValue": "鼓山區",
+            "City": "17"
+        },
+        {
+            "DataValue": "805",
+            "DisplayValue": "旗津區",
+            "City": "17"
+        },
+        {
+            "DataValue": "806",
+            "DisplayValue": "前鎮區",
+            "City": "17"
+        },
+        {
+            "DataValue": "807",
+            "DisplayValue": "三民區",
+            "City": "17"
+        },
+        {
+            "DataValue": "811",
+            "DisplayValue": "楠梓區",
+            "City": "17"
+        },
+        {
+            "DataValue": "812",
+            "DisplayValue": "小港區",
+            "City": "17"
+        },
+        {
+            "DataValue": "813",
+            "DisplayValue": "左營區",
+            "City": "17"
+        },
+        {
+            "DataValue": "814",
+            "DisplayValue": "仁武區",
+            "City": "17"
+        },
+        {
+            "DataValue": "815",
+            "DisplayValue": "大社區",
+            "City": "17"
+        },
+        {
+            "DataValue": "817",
+            "DisplayValue": "東沙群島",
+            "City": "17"
+        },
+        {
+            "DataValue": "819",
+            "DisplayValue": "南沙群島",
+            "City": "17"
+        },
+        {
+            "DataValue": "820",
+            "DisplayValue": "岡山區",
+            "City": "17"
+        },
+        {
+            "DataValue": "821",
+            "DisplayValue": "路竹區",
+            "City": "17"
+        },
+        {
+            "DataValue": "822",
+            "DisplayValue": "阿蓮區",
+            "City": "17"
+        },
+        {
+            "DataValue": "823",
+            "DisplayValue": "田寮區",
+            "City": "17"
+        },
+        {
+            "DataValue": "824",
+            "DisplayValue": "燕巢區",
+            "City": "17"
+        },
+        {
+            "DataValue": "825",
+            "DisplayValue": "橋頭區",
+            "City": "17"
+        },
+        {
+            "DataValue": "826",
+            "DisplayValue": "梓官區",
+            "City": "17"
+        },
+        {
+            "DataValue": "827",
+            "DisplayValue": "彌陀區",
+            "City": "17"
+        },
+        {
+            "DataValue": "828",
+            "DisplayValue": "永安區",
+            "City": "17"
+        },
+        {
+            "DataValue": "829",
+            "DisplayValue": "湖內區",
+            "City": "17"
+        },
+        {
+            "DataValue": "830",
+            "DisplayValue": "鳳山區",
+            "City": "17"
+        },
+        {
+            "DataValue": "831",
+            "DisplayValue": "大寮區",
+            "City": "17"
+        },
+        {
+            "DataValue": "832",
+            "DisplayValue": "林園區",
+            "City": "17"
+        },
+        {
+            "DataValue": "833",
+            "DisplayValue": "鳥松區",
+            "City": "17"
+        },
+        {
+            "DataValue": "840",
+            "DisplayValue": "大樹區",
+            "City": "17"
+        },
+        {
+            "DataValue": "842",
+            "DisplayValue": "旗山區",
+            "City": "17"
+        },
+        {
+            "DataValue": "843",
+            "DisplayValue": "美濃區",
+            "City": "17"
+        },
+        {
+            "DataValue": "844",
+            "DisplayValue": "六龜區",
+            "City": "17"
+        },
+        {
+            "DataValue": "845",
+            "DisplayValue": "內門區",
+            "City": "17"
+        },
+        {
+            "DataValue": "846",
+            "DisplayValue": "杉林區",
+            "City": "17"
+        },
+        {
+            "DataValue": "847",
+            "DisplayValue": "甲仙區",
+            "City": "17"
+        },
+        {
+            "DataValue": "848",
+            "DisplayValue": "桃源區",
+            "City": "17"
+        },
+        {
+            "DataValue": "849",
+            "DisplayValue": "那瑪夏區",
+            "City": "17"
+        },
+        {
+            "DataValue": "851",
+            "DisplayValue": "茂林區",
+            "City": "17"
+        },
+        {
+            "DataValue": "852",
+            "DisplayValue": "茄萣區",
+            "City": "17"
+        },
+        {
+            "DataValue": "880",
+            "DisplayValue": "馬公市",
+            "City": "18"
+        },
+        {
+            "DataValue": "881",
+            "DisplayValue": "西嶼鄉",
+            "City": "18"
+        },
+        {
+            "DataValue": "882",
+            "DisplayValue": "望安鄉",
+            "City": "18"
+        },
+        {
+            "DataValue": "883",
+            "DisplayValue": "七美鄉",
+            "City": "18"
+        },
+        {
+            "DataValue": "884",
+            "DisplayValue": "白沙鄉",
+            "City": "18"
+        },
+        {
+            "DataValue": "885",
+            "DisplayValue": "湖西鄉",
+            "City": "18"
+        },
+        {
+            "DataValue": "890",
+            "DisplayValue": "金沙鎮",
+            "City": "19"
+        },
+        {
+            "DataValue": "891",
+            "DisplayValue": "金湖鎮",
+            "City": "19"
+        },
+        {
+            "DataValue": "892",
+            "DisplayValue": "金寧鄉",
+            "City": "19"
+        },
+        {
+            "DataValue": "893",
+            "DisplayValue": "金城鎮",
+            "City": "19"
+        },
+        {
+            "DataValue": "894",
+            "DisplayValue": "烈嶼鄉",
+            "City": "19"
+        },
+        {
+            "DataValue": "896",
+            "DisplayValue": "烏坵鄉",
+            "City": "19"
+        },
+        {
+            "DataValue": "900",
+            "DisplayValue": "屏東市",
+            "City": "20"
+        },
+        {
+            "DataValue": "901",
+            "DisplayValue": "三地門鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "902",
+            "DisplayValue": "霧臺鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "903",
+            "DisplayValue": "瑪家鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "904",
+            "DisplayValue": "九如鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "905",
+            "DisplayValue": "里港鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "906",
+            "DisplayValue": "高樹鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "907",
+            "DisplayValue": "鹽埔鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "908",
+            "DisplayValue": "長治鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "909",
+            "DisplayValue": "麟洛鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "911",
+            "DisplayValue": "竹田鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "912",
+            "DisplayValue": "內埔鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "913",
+            "DisplayValue": "萬丹鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "920",
+            "DisplayValue": "潮州鎮",
+            "City": "20"
+        },
+        {
+            "DataValue": "921",
+            "DisplayValue": "泰武鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "922",
+            "DisplayValue": "來義鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "923",
+            "DisplayValue": "萬巒鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "924",
+            "DisplayValue": "崁頂鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "925",
+            "DisplayValue": "新埤鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "926",
+            "DisplayValue": "南州鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "927",
+            "DisplayValue": "林邊鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "928",
+            "DisplayValue": "東港鎮",
+            "City": "20"
+        },
+        {
+            "DataValue": "929",
+            "DisplayValue": "琉球鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "931",
+            "DisplayValue": "佳冬鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "932",
+            "DisplayValue": "新園鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "940",
+            "DisplayValue": "枋寮鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "941",
+            "DisplayValue": "枋山鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "942",
+            "DisplayValue": "春日鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "943",
+            "DisplayValue": "獅子鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "944",
+            "DisplayValue": "車城鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "945",
+            "DisplayValue": "牡丹鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "946",
+            "DisplayValue": "恆春鎮",
+            "City": "20"
+        },
+        {
+            "DataValue": "947",
+            "DisplayValue": "滿州鄉",
+            "City": "20"
+        },
+        {
+            "DataValue": "950",
+            "DisplayValue": "臺東市",
+            "City": "21"
+        },
+        {
+            "DataValue": "951",
+            "DisplayValue": "綠島鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "952",
+            "DisplayValue": "蘭嶼鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "953",
+            "DisplayValue": "延平鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "954",
+            "DisplayValue": "卑南鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "955",
+            "DisplayValue": "鹿野鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "956",
+            "DisplayValue": "關山鎮",
+            "City": "21"
+        },
+        {
+            "DataValue": "957",
+            "DisplayValue": "海端鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "958",
+            "DisplayValue": "池上鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "959",
+            "DisplayValue": "東河鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "961",
+            "DisplayValue": "成功鎮",
+            "City": "21"
+        },
+        {
+            "DataValue": "962",
+            "DisplayValue": "長濱鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "963",
+            "DisplayValue": "太麻里鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "964",
+            "DisplayValue": "金峰鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "965",
+            "DisplayValue": "大武鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "966",
+            "DisplayValue": "達仁鄉",
+            "City": "21"
+        },
+        {
+            "DataValue": "970",
+            "DisplayValue": "花蓮市",
+            "City": "22"
+        },
+        {
+            "DataValue": "971",
+            "DisplayValue": "新城鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "972",
+            "DisplayValue": "秀林鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "973",
+            "DisplayValue": "吉安鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "974",
+            "DisplayValue": "壽豐鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "975",
+            "DisplayValue": "鳳林鎮",
+            "City": "22"
+        },
+        {
+            "DataValue": "976",
+            "DisplayValue": "光復鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "977",
+            "DisplayValue": "豐濱鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "978",
+            "DisplayValue": "瑞穗鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "979",
+            "DisplayValue": "萬榮鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "981",
+            "DisplayValue": "玉里鎮",
+            "City": "22"
+        },
+        {
+            "DataValue": "982",
+            "DisplayValue": "卓溪鄉",
+            "City": "22"
+        },
+        {
+            "DataValue": "983",
+            "DisplayValue": "富里鄉",
+            "City": "22"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+  "//": "任意險",
+  "data": {
+    "moto": [
+      {
+        "index": "48",
+        "title": "駕駛人傷害附加條款",
+        "coverageList": [
+          {
+            "description": "每一個人傷害醫療最高",
+            "options": ["20"]
+          },
+          {
+            "description": "每一個人失能最高",
+            "options": ["200"]
+          },
+          {
+            "description": "每一個人死亡定額給付",
+            "options": ["200"]
+          }
+        ]
+      },
+      {
+        "index": "37",
+        "title": "機車責任綜合保險",
+        "productList": [
+          {
+            "index": "37",
+            "title_target": "第三人",
+            "title_type": "傷害責任險",
+            "coverageList": [
+              {
+                "description": "每一個人傷害醫療最高",
+                "options": ["100", "200", "300"]
+              },
+              {
+                "description": "每一意外之事故傷害",
+                "options": ["200", "400", "600"]
+              }
+            ]
+          },
+          {
+            "index": "3A",
+            "title_target": "第三人",
+            "title_type": "財損責任險",
+            "coverageList": [
+              {
+                "description": "每一意外之事故財損",
+                "options": ["30", "50"]
+              }
+            ]
+          },
+          {
+            "index": "55",
+            "title_target": "乘客",
+            "title_type": "傷害責任險",
+            "coverageList": [
+              {
+                "description": "每一個人傷害",
+                "options": ["100"]
+              },
+              {
+                "description": "每一意外之事故傷害",
+                "options": ["100"]
+              }
+            ]
+          },
+          {
+            "index": "9A",
+            "title_target": "第三人&乘客",
+            "coverageList": [
+              {
+                "description": "每一人住院慰問金",
+                "options": ["0.5"]
+              },
+              {
+                "description": "每一人身故慰問金",
+                "options": ["5"]
+              },
+              {
+                "description": "保險期間累積賠償限額",
+                "options": ["50"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": "86",
+        "title": "電動機車轉乘費用附加條款",
+        "coverageList": [
+          {
+            "description": "每一次轉乘費用",
+            "options": ["0.1"]
+          },
+          {
+            "description": "每一事故轉乘費用",
+            "options": ["0.2"]
+          },
+          {
+            "description": "保險期間內累積賠償限額",
+            "options": ["1"]
+          }
+        ]
+      },
+      {
+        "index": "S3",
+        "title": "免自付額車碰撞損失",
+        "coverageList": [
+          {
+            "description": "免自付額車碰撞損失",
+            "options": ["2", "3", "5"]
+          }
+        ]
+      },
+      {
+        "title": "第三人超額責任附加條款",
+        "index": "38",
+        "coverageList": [
+          {
+            "description": "第三人超額責任保險金-每一事故",
+            "options": ["300"]
+          }
+        ]
+      },
+      {
+        "title": "刑事訴訟律師費用補償附加條款",
+        "index": "S9",
+        "coverageList": [
+          {
+            "description": "刑事訴訟律師費用-每一事故",
+            "options": ["10"]
+          }
+        ]
+      }
+    ],
+    "car": [
+      {
+        "index": "31",
+        "title": "第三人責任保險",
+        "productList": [
+          {
+            "index": "31",
+            "title_type": "傷害責任險",
+            "coverageList": [
+              {
+                "description": "每一個人傷害醫療最高",
+                "options": ["100", "200", "300"]
+              },
+              {
+                "description": "每一意外之事故傷害",
+                "options": ["200", "400", "600"]
+              }
+            ]
+          },
+          {
+            "index": "32",
+            "title_type": "財損責任險",
+            "coverageList": [
+              {
+                "description": "每一意外之事故財損",
+                "options": ["20", "50"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": "93",
+        "title": "道路救援費用附加條款",
+        "coverageList": [
+          {
+            "description": "保險期間內累積最高賠償金額",
+            "options": ["3"]
+          }
+        ]
+      },
+      {
+        "index": "39",
+        "title": "超額責任附加條款(經濟型)",
+        "coverageList": [
+          {
+            "description": "保險期間內每一事故賠償限額",
+            "options": ["500", "1000"]
+          }
+        ]
+      }
+    ]
+  }
+}

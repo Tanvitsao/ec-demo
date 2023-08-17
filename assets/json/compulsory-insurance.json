@@ -1,0 +1,31 @@
+{
+  "//": "強制險",
+  "data": {
+    "moto": [
+      {
+        "index": "21",
+        "title": "強制責任保險",
+        "coverageList": [
+          {
+            "description": "每一個人傷害醫療最高",
+            "options": [
+              "20"
+            ]
+          },
+          {
+            "description": "每一個人失能最高",
+            "options": [
+              "200"
+            ]
+          },
+          {
+            "description": "每一個人死亡定額給付",
+            "options": [
+              "200"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

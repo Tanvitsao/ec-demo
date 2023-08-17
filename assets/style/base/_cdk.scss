@@ -1,0 +1,11 @@
+.cdk-overlay-dark-backdrop {
+  background: rgba(0, 0, 0, .5);
+}
+
+.cdk-overlay-pane {
+  max-width: 100% !important;
+
+  .mat-dialog-container {
+    padding: 0;
+  }
+}

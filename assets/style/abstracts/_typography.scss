@@ -1,0 +1,652 @@
+@mixin DH01_Large-Title_64_Bold {
+
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+}
+
+@mixin DH02_Large-Title_56_Bold {
+
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+}
+
+@mixin DH03_Large-Title_48_Bold {
+
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.55;
+  letter-spacing: 1.8px;
+}
+
+@mixin MH01_Large-Title_40_Bold {
+
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 2px;
+}
+
+@mixin DH04_Large-Title_40_Bold {
+
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.55;
+  letter-spacing: 1.8px;
+}
+
+@mixin MH02_Large-Title_38_Bold {
+
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 2px;
+}
+
+@mixin MH03_Large-Title_36_Bold {
+
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 1.8px;
+}
+
+@mixin MH04_Large-Title_32_Bold {
+
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 1.8px;
+}
+
+@mixin DH05_Large-Title_32_Bold {
+
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.55;
+  letter-spacing: 1.8px;
+}
+
+@mixin DH06_Title_28_Bold {
+
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1.8px;
+}
+
+@mixin MH05_Large-Title_26_Bold {
+
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.45;
+  letter-spacing: 1.8px;
+}
+
+@mixin MH06_Title_24_Bold {
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.8px;
+}
+
+@mixin DH07_Title_24_Bold {
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1.8px;
+}
+
+@mixin DH20_Callout_22_Bold {
+
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: 2px;
+}
+
+@mixin DH21_Callout_22_Medium {
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 2px;
+}
+
+@mixin MH07_Title_20_Bold {
+
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.8px;
+}
+
+@mixin DH08_Title_20_Bold {
+
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1.6px;
+}
+
+@mixin MH20_Callout_18_Bold {
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: 1.2px;
+}
+
+@mixin MH08_Title_18_Bold {
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+}
+
+@mixin DH22_Callout_18_Bold {
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin DH11_Body_18_Bold {
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+}
+
+@mixin DH09_Title_18_Bold {
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+}
+
+@mixin MH21_Callout_18_Medium {
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 1.2px;
+}
+
+@mixin DH23_Callout_18_Medium {
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin DH12_Body_18_Medium {
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+}
+
+@mixin DH13_Body_18_Regular {
+
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+}
+
+@mixin MH22_Callout_16_Bold {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin MH09_Title_16_Bold {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+
+@mixin DH24_Callout_16_Bold {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin DH14_Body_16_Bold {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.32px;
+}
+
+@mixin DH10_Title_16_Bold {
+
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+}
+
+@mixin MH23_Callout_16_Medium {
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin DH25_Callout_16_Medium {
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin DH15_Body_16_Medium {
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.32px;
+}
+
+@mixin MH28_input_16_Regular {
+
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+}
+
+@mixin MH13_Body_16_Regular {
+
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.32px;
+}
+
+@mixin DH28_input_16_Regular {
+
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+}
+
+@mixin DH16_Body_16_Regular {
+
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.32px;
+}
+
+@mixin MH24_Callout_15_Bold {
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin MH14_Body_15_Bold {
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+@mixin MH10_Title_15_Bold {
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+
+@mixin DH26_Callout_15_Bold {
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin MH25_Callout_15_Medium {
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin MH15_Body_15_Medium {
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+@mixin DH27_Callout_15_Medium {
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+@mixin MH16_Body_15_Regular {
+
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+@mixin MH26_Callout_14_Bold {
+
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin DH17_Body_14_Bold {
+
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.28px;
+}
+
+@mixin MH27_Callout_14_Medium {
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+@mixin DH18_Body_14_Medium {
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.28px;
+}
+
+@mixin DH19_Body_14_Regular {
+
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.28px;
+}
+
+@mixin MH17_Body_13_Bold {
+
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.26px;
+}
+
+@mixin MH18_Body_13_Medium {
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.26px;
+}
+
+@mixin MH19_Body_13_Regular {
+
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.26px;
+}
+
+
+// 全站共用字體大小 h1 ~ h28
+@mixin h01 {
+  @include DH01_Large-Title_64_Bold;
+
+  @include rwd($medium-1) {
+    @include MH01_Large-Title_40_Bold;
+  }
+}
+
+@mixin h02 {
+  @include DH02_Large-Title_56_Bold;
+
+  @include rwd($medium-1) {
+    @include MH02_Large-Title_38_Bold;
+  }
+}
+
+@mixin h03 {
+  @include DH03_Large-Title_48_Bold;
+
+  @include rwd($medium-1) {
+    @include MH03_Large-Title_36_Bold;
+  }
+}
+
+@mixin h04 {
+  @include DH04_Large-Title_40_Bold;
+
+  @include rwd($medium-1) {
+    @include MH04_Large-Title_32_Bold;
+  }
+}
+
+@mixin h05 {
+  @include DH05_Large-Title_32_Bold;
+
+  @include rwd($medium-1) {
+    @include MH05_Large-Title_26_Bold;
+  }
+}
+
+@mixin h06 {
+  @include DH06_Title_28_Bold;
+
+  @include rwd($medium-1) {
+    @include MH06_Title_24_Bold;
+  }
+}
+
+@mixin h07 {
+  @include DH07_Title_24_Bold;
+
+  @include rwd($medium-1) {
+    @include MH07_Title_20_Bold;
+  }
+}
+
+@mixin h08 {
+  @include DH08_Title_20_Bold;
+
+  @include rwd($medium-1) {
+    @include MH08_Title_18_Bold;
+  }
+}
+
+@mixin h09 {
+  @include DH09_Title_18_Bold;
+
+  @include rwd($medium-1) {
+    @include MH09_Title_16_Bold;
+  }
+}
+
+@mixin h10 {
+  @include DH10_Title_16_Bold;
+
+  @include rwd($medium-1) {
+    @include MH10_Title_15_Bold;
+  }
+}
+
+@mixin h11 {
+  @include DH11_Body_18_Bold;
+
+  @include rwd($medium-1) {
+    @include DH14_Body_16_Bold;
+  }
+}
+
+@mixin h12 {
+  @include DH12_Body_18_Medium;
+
+  @include rwd($medium-1) {
+    @include DH15_Body_16_Medium;
+  }
+}
+
+@mixin h13 {
+  @include DH13_Body_18_Regular;
+
+  @include rwd($medium-1) {
+    @include MH13_Body_16_Regular;
+  }
+}
+
+@mixin h14 {
+  @include DH14_Body_16_Bold;
+
+  @include rwd($medium-1) {
+    @include MH14_Body_15_Bold;
+  }
+}
+
+@mixin h15 {
+  @include DH15_Body_16_Medium;
+
+  @include rwd($medium-1) {
+    @include MH15_Body_15_Medium;
+  }
+}
+
+@mixin h16 {
+  @include DH16_Body_16_Regular;
+
+  @include rwd($medium-1) {
+    @include MH16_Body_15_Regular;
+  }
+}
+
+@mixin h17 {
+  @include DH17_Body_14_Bold;
+
+  @include rwd($medium-1) {
+    @include MH17_Body_13_Bold;
+  }
+}
+
+@mixin h18 {
+  @include DH18_Body_14_Medium;
+
+  @include rwd($medium-1) {
+    @include MH18_Body_13_Medium;
+  }
+}
+
+@mixin h19 {
+  @include DH19_Body_14_Regular;
+
+  @include rwd($medium-1) {
+    @include MH19_Body_13_Regular;
+  }
+}
+
+@mixin h20 {
+  @include DH20_Callout_22_Bold;
+
+  @include rwd($medium-1) {
+    @include MH20_Callout_18_Bold;
+  }
+}
+
+
+@mixin h21 {
+  @include DH21_Callout_22_Medium;
+
+  @include rwd($medium-1) {
+    @include MH21_Callout_18_Medium;
+  }
+}
+
+@mixin h22 {
+  @include DH22_Callout_18_Bold;
+
+  @include rwd($medium-1) {
+    @include MH22_Callout_16_Bold;
+  }
+}
+
+@mixin h23 {
+  @include DH23_Callout_18_Medium;
+
+  @include rwd($medium-1) {
+    @include MH23_Callout_16_Medium;
+  }
+}
+
+@mixin h24 {
+  @include DH24_Callout_16_Bold;
+
+  @include rwd($medium-1) {
+    @include MH24_Callout_15_Bold;
+  }
+}
+
+@mixin h25 {
+  @include DH25_Callout_16_Medium;
+
+  @include rwd($medium-1) {
+    @include MH25_Callout_15_Medium;
+  }
+}
+
+
+@mixin h26 {
+  @include DH26_Callout_15_Bold;
+
+  @include rwd($medium-1) {
+    @include MH26_Callout_14_Bold;
+  }
+}
+
+@mixin h27 {
+  @include DH27_Callout_15_Medium;
+
+  @include rwd($medium-1) {
+    @include MH27_Callout_14_Medium;
+  }
+}
+
+
+@mixin h28 {
+  @include DH28_input_16_Regular;
+
+  @include rwd($medium-1) {
+    @include MH28_input_16_Regular;
+  }
+}

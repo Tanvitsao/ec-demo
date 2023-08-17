@@ -1,0 +1,93 @@
+{
+    "//": "NS_City-住址 縣市下拉選單",
+    "data": [
+        {
+            "DataValue": "01",
+            "DisplayValue": "臺北市"
+        },
+        {
+            "DataValue": "02",
+            "DisplayValue": "基隆市"
+        },
+        {
+            "DataValue": "03",
+            "DisplayValue": "新北市"
+        },
+        {
+            "DataValue": "04",
+            "DisplayValue": "連江縣"
+        },
+        {
+            "DataValue": "05",
+            "DisplayValue": "宜蘭縣"
+        },
+        {
+            "DataValue": "06",
+            "DisplayValue": "新竹市"
+        },
+        {
+            "DataValue": "07",
+            "DisplayValue": "新竹縣"
+        },
+        {
+            "DataValue": "08",
+            "DisplayValue": "桃園市"
+        },
+        {
+            "DataValue": "09",
+            "DisplayValue": "苗栗縣"
+        },
+        {
+            "DataValue": "10",
+            "DisplayValue": "臺中市"
+        },
+        {
+            "DataValue": "11",
+            "DisplayValue": "彰化縣"
+        },
+        {
+            "DataValue": "12",
+            "DisplayValue": "南投縣"
+        },
+        {
+            "DataValue": "13",
+            "DisplayValue": "嘉義市"
+        },
+        {
+            "DataValue": "14",
+            "DisplayValue": "嘉義縣"
+        },
+        {
+            "DataValue": "15",
+            "DisplayValue": "雲林縣"
+        },
+        {
+            "DataValue": "16",
+            "DisplayValue": "臺南市"
+        },
+        {
+            "DataValue": "17",
+            "DisplayValue": "高雄市"
+        },
+        {
+            "DataValue": "18",
+            "DisplayValue": "澎湖縣"
+        },
+        {
+            "DataValue": "19",
+            "DisplayValue": "金門縣"
+        },
+        {
+            "DataValue": "20",
+            "DisplayValue": "屏東縣"
+        },
+        {
+            "DataValue": "21",
+            "DisplayValue": "臺東縣"
+        },
+        {
+            "DataValue": "22",
+            "DisplayValue": "花蓮縣"
+        }
+    ]
+}

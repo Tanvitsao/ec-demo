@@ -1,0 +1,314 @@
+{
+  "vehicleMakeList": [
+    {
+      "id": "7668",
+      "makeCode": "AA",
+      "makeName": "YAMAHA(日本)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "AA",
+      "carModelCodeHP": "AA000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7669",
+      "makeCode": "AB",
+      "makeName": "SUZUKI(日本)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "AB",
+      "carModelCodeHP": "AB000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7670",
+      "makeCode": "AC",
+      "makeName": "Honda(日本)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "AC",
+      "carModelCodeHP": "AC000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7671",
+      "makeCode": "AD",
+      "makeName": "Kawasaki(日本)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "AD",
+      "carModelCodeHP": "AD000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7767",
+      "makeCode": "MA",
+      "makeName": "三陽(Sym)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MA",
+      "carModelCodeHP": "MA000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7768",
+      "makeCode": "MB",
+      "makeName": "山葉(YAMAHA)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MB",
+      "carModelCodeHP": "MB000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7769",
+      "makeCode": "MC",
+      "makeName": "光陽(Kymco)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MC",
+      "carModelCodeHP": "MC000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7770",
+      "makeCode": "MD",
+      "makeName": "台鈴(Suzuki)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MD",
+      "carModelCodeHP": "MD000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7771",
+      "makeCode": "ME",
+      "makeName": "比雅久(PGO)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "ME",
+      "carModelCodeHP": "ME000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7772",
+      "makeCode": "MF",
+      "makeName": "哈特佛",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "MF",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7775",
+      "makeCode": "MI",
+      "makeName": "偉士牌(Vespa)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MI",
+      "carModelCodeHP": "MI000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7776",
+      "makeCode": "MJ",
+      "makeName": "中華(CMC)",
+      "makeType": "01",
+      "brandCodeHP": "00",
+      "carModelCodeHP": "MJ000101",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7777",
+      "makeCode": "MK",
+      "makeName": "宏佳騰",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "MK",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7778",
+      "makeCode": "ML",
+      "makeName": "摩特動力",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "ML",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7774",
+      "makeCode": "MM",
+      "makeName": "Gogoro",
+      "makeType": "01",
+      "brandCodeHP": "00",
+      "carModelCodeHP": "MM000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7779",
+      "makeCode": "MM",
+      "makeName": "其他(國產)",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "MM",
+      "carModelCodeHP": "MM000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7780",
+      "makeCode": "MN",
+      "makeName": "必翔",
+      "makeType": "01",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "MN",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7781",
+      "makeCode": "OM",
+      "makeName": "其他(進口)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "OM",
+      "carModelCodeHP": "OM000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7782",
+      "makeCode": "UA",
+      "makeName": "BMW(德國)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UA",
+      "carModelCodeHP": "UA000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7783",
+      "makeCode": "UB",
+      "makeName": "Vespa(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UB",
+      "carModelCodeHP": "UB000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7784",
+      "makeCode": "UC",
+      "makeName": "Triumph凱旋(英國)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UC",
+      "carModelCodeHP": "UC000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7785",
+      "makeCode": "UD",
+      "makeName": "Ducati(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UD",
+      "carModelCodeHP": "UD000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7786",
+      "makeCode": "UE",
+      "makeName": "Aprilia(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "00",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UE",
+      "carModelCodeHP": "UE000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7787",
+      "makeCode": "UF",
+      "makeName": "Harley Davidson(美)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UF",
+      "carModelCodeHP": "UF000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7788",
+      "makeCode": "UG",
+      "makeName": "Moto Guzzi(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "00",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UG",
+      "carModelCodeHP": "UG000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7789",
+      "makeCode": "UH",
+      "makeName": "MV Agusta(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "00",
+      "brandCodeHP": "00",
+      "carModelCodeCC": "UH",
+      "carModelCodeHP": "UH000001",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7790",
+      "makeCode": "UI",
+      "makeName": "KTM(奧地利)",
+      "makeType": "02",
+      "brandCodeCC": "00",
+      "carModelCodeCC": "UI",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7791",
+      "makeCode": "UJ",
+      "makeName": "Benelli(義大利)",
+      "makeType": "02",
+      "brandCodeCC": "00",
+      "carModelCodeCC": "UJ",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7792",
+      "makeCode": "UK",
+      "makeName": "VICTORY(美國)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "UK",
+      "lastUpdateDatetime": "2020-06-19"
+    },
+    {
+      "id": "7793",
+      "makeCode": "UL",
+      "makeName": "Can-Am(加拿大)",
+      "makeType": "02",
+      "brandCodeCC": "XX",
+      "carModelCodeCC": "UL",
+      "lastUpdateDatetime": "2020-06-19"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.hidden {
+  display: none !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include rwd($large-1) {
+    max-width: 1080px;
+  }
+
+  @include rwd($medium-1) {
+    max-width: 680px;
+  }
+
+  @include rwd($small-1) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+body {
+  background: #f6f6f6 !important;
+}
+
+.section-block + .section-block {
+  margin-top: 120px;
+  margin-bottom: 36px;
+}

@@ -1,0 +1,221 @@
+/// @example 快速創建Device Width Media Query規則
+/// @param {String} $breakpoint 參數請填長度單位，裝置斷點寬度
+// 判斷裝置是否支援 hover，下 hover 樣式
+
+@mixin has-hover() {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+@mixin has-hover-active() {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  &:active {
+    @content;
+  }
+}
+
+
+
+@mixin rwd($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin min-rwd($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin between-rwd($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin ie-hack {
+  @media all and (-ms-high-contrast:none) {
+    @content;
+  }
+}
+
+/// @example 快速創建禁用樣式
+/// @param {String} opacity 參數請填透明度小數
+
+@mixin status-disable($opacity: 0.3) {
+  cursor: not-allowed;
+  opacity: $opacity;
+
+  * {
+    pointer-events: none !important;
+  }
+}
+
+/// @example 若某元素有滑鼠互動特效時導入
+/// @param {Bool} $self [false] - 當值為 false時，不將本身納入樣式有效對象, 也就是說當值為true時, compile出來的css會是 .element,.element:hover,element:active,.element:focus{...}
+@mixin on-event($self: false) {
+  @if $self {
+
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+
+  @else {
+
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// @example 文字漸層
+@mixin gradient-text($linear-gradient:-webkit-linear-gradient(left, #DCE1E6 0%, #F5F5FA 100%), $color:#DCE1E6) {
+  @supports (-webkit-background-clip: text) {
+    background: $linear-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  color: $color;
+}
+
+/// @example 漸層框線
+@mixin gradient-border($linear-gradient: -webkit-linear-gradient(left, #DCE1E6 0%, #F5F5FA 100%), $inner-bg: #fff, $border-width: 1px) {
+  background: linear-gradient($inner-bg, $inner-bg) padding-box,
+    $linear-gradient;
+  border: $border-width solid transparent;
+}
+
+/// @example 快速創建固定間距寬度(寬度可為各種長度單位)的flex grid system
+/// @param {Num} column-number 參數請填數字，grid欄數
+/// @param {Size} column-gutter 參數請填長度單位(px,rem,em,%,vw,...,etc), grid容器內部子容器的水平間距
+/// @param {Size} vertical-gutter 參數請填長度單位(px,rem,em,%,vw,...,etc), grid容器內部子容器的垂直間距, 預設等於column-gutter
+/// @param {String} grid-child-selector 參數請填gird容器內部子容器想要的class名稱, 預設為'*'
+/// @param {String} max-width 參數請填長度單位，gird容器的最大寬度
+/// @param {String} min-screen-width 參數請填長度單位，呈現出這個 mixin 參數所導出的grid樣式時，其最小視窗寬度，預設為0
+@mixin fixed-gutter-flex-grid($column-number: 3,
+  $column-gutter: 30px,
+  $vertical-gutter: $column-gutter,
+  $grid-child-selector: "*",
+  $max-width: 100%,
+  $min-screen-width: 0px,
+  $max-screen-width: 999999px) {
+  @media screen and (min-width: $min-screen-width) and (max-width: $max-screen-width) {
+    width: 100%;
+    display: inline-flex;
+    max-width: $max-width;
+    font-size: 0;
+    flex-wrap: wrap;
+    margin-bottom: -$vertical-gutter;
+
+    >#{$grid-child-selector} {
+      display: inline-block;
+      flex: none;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: calc((100% - (#{$column-number} - 1) * #{$column-gutter}) /#{$column-number});
+      width: calc((100% - (#{$column-number} - 1) * #{$column-gutter}) /#{$column-number});
+      margin-right: #{$column-gutter};
+
+      margin-bottom: #{$vertical-gutter};
+
+      &:nth-child(#{$column-number}n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@mixin global-scrollbar($gutter: 8px) {
+  $size-desktop: 6px;
+  $size-mobile: 4px;
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: $size-desktop;
+    height: $size-desktop;
+
+    @include rwd($medium-1) {
+      width: $size-mobile;
+      height: $size-mobile;
+    }
+  }
+
+  /* gutter :用原生箭頭高度當滾軸上下假間距 */
+  &::-webkit-scrollbar-button:vertical:start:decrement,
+  &::-webkit-scrollbar-button:vertical:end:increment {
+    display: block;
+    height: $gutter;
+  }
+
+  /* gutter :用原生箭頭寬度當滾軸左右假間距 */
+  &::-webkit-scrollbar-button:horizontal:start:decrement,
+  &::-webkit-scrollbar-button:horizontal:end:increment {
+    display: block;
+    width: $gutter;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 16px;
+    background: $grayscale-05;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $grayscale-40;
+    border-radius: 24px;
+  }
+}
+
+// input placeholder文字顏色
+@mixin placeholder($color) {
+  &::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color;
+  }
+
+  &::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $color;
+  }
+}
+/// @example 單行字數若溢出容器最大寬度，將超出的字轉換為...
+/// @param {None} none
+@mixin text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/// @example 隱藏scrollbar 
+@mixin hideScrollStyle {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

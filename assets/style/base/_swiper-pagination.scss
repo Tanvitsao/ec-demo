@@ -1,0 +1,42 @@
+.swiper-pagination-bullets {
+  display: flex;
+
+  .swiper-pagination-bullet {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    background-color: transparent;
+    opacity: 1;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 6px;
+      background-color: $grayscale-20;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 999px;
+      transition: all $duration-default $easing-function-default;
+    }
+
+    @include has-hover {
+      &:before {
+        background-color: $ci-main-blue5;
+      }
+    }
+
+    &-active {
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &-active {
+      &:before {
+        width: 32px;
+        background-color: $ci-main-blue5;
+      }
+    }
+  }
+}

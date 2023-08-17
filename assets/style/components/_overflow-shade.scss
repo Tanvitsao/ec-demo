@@ -1,0 +1,107 @@
+.overflow-shade {
+  &__inner {
+    width: 100%;
+    overflow: auto;
+  }
+  &__pseudo-wrapper::after,
+  &__pseudo-wrapper::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 100%;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  &__pseudo-wrapper::before {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+    left: 0;
+  }
+
+  &__pseudo-wrapper::after {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.08) 100%);
+    right: 0;
+  }
+
+  &--show-after &__pseudo-wrapper::after {
+    opacity: 1;
+  }
+
+  &--show-before &__pseudo-wrapper::before {
+    opacity: 1;
+  }
+
+  &--show-after#{&}--show-before &__pseudo-wrapper {
+    mask: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #ffffff 5.11%, #FFFFFF 5.12%, #FFFFFF 94.88%, #ffffff 94.88%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &--show-after:not(&--show-before) &__pseudo-wrapper {
+    mask: linear-gradient(90deg, #FFFFFF 94.89%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &--show-before:not(&--show-after) &__pseudo-wrapper {
+    mask: linear-gradient(270deg, #FFFFFF 94.89%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &__pseudo-wrapper {
+    position: relative;
+
+    &:after,
+    &:before {
+      display: none;
+    }
+
+    &:not(&--vertical) {
+      .overflow-shade__inner {
+        @include hideScrollStyle();
+      }
+    }
+
+    &--vertical {
+
+      &,
+      .overflow-shade__inner {
+        max-height: inherit;
+      }
+      .overflow-shade__inner {
+        @include global-scrollbar();
+      }
+
+      &:after,
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: calc(100% - var(--scrollbar-width, 0));
+        height: 40px;
+        pointer-events: none;
+        left: 0;
+        z-index: 1;
+      }
+
+      &:before {
+        top: 0;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.37) 100%);
+      }
+
+      &:after {
+        top: auto;
+        bottom: 0;
+        background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0.37) 100%);
+      }
+
+    }
+  }
+
+  &--show-vertical-after &__pseudo-wrapper::after {
+    opacity: 1;
+  }
+
+  &--show-vertical-before &__pseudo-wrapper::before {
+    opacity: 1;
+  }
+}
